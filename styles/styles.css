@@ -1,0 +1,161 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+
+
+.common-description {
+
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+
+
+}
+
+.primary-button {
+
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: none;
+    color: #FFF;
+}
+
+.common-title {
+
+    color: #131318;
+    
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+/* Banner Section */
+.explore {
+
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+
+}
+
+.banner {
+
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.explore-travels {
+
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.explore-description {
+
+    color: #FFF;
+    padding-left: 230px;
+    width: 676px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.explore-input-boxes {
+
+
+    margin-top: 50px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 930px;
+    height: 85px;
+    margin-left: 130px;
+
+}
+
+.explore-buttons {
+
+    display: inline-flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 20px;
+}
+
+
+
+.explore-buttons .placeholder-style {
+
+    /* padding: 10px; */
+}
+
+
+
+/* Popular Tours */
+
+.popular-tours {
+
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 1440px;
+    gap: 30px;
+
+}
+
+
+
+.popular-description {
+
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* Why choose us?? */
+
+.Choose-us{
+
+    margin-top: 150px;
+    text-align: center;
+    /* width: 1440px; */
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+    .banner {
+
+        flex-direction: column;
+
+    }
+
+}
